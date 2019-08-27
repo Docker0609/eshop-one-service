@@ -9,3 +9,8 @@ server:
 spring:
   application:
     name: eshop-one-service
+
+
+feign: 
+  hystrix:
+    enabled: true
